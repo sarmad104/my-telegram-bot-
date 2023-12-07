@@ -1,5 +1,5 @@
 <?php
-$Token = ' '; #Your Token
+$Token = '6463688414:AAErgb551U7iFxRGAVaywd2dl5c9ulNgfKE'; #Your Token
 define('API_KEY',$Token);
 function bot($method,$datas=[]){
 $function = http_build_query($datas);
